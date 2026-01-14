@@ -4,10 +4,50 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		form {
+			background-color: yellow;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="/submit" method="post">
+
+		<label for="name">Name:</label>
+		<input  type="text" name="name" id="name" placeholder="Name"><br><br>
+
+		<label for="phone">Phone Number:</label>
+		<input  type="text" name="phone" id="phone" placeholder="Phone Number"><br><br>
+
+		<label for="address">Address:</label>
+		<input  type="text" name="address" id="address" placeholder="Address"><br><br>
+
+		<input  type="checkbox" name="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+		<label for="checkbox">Have you ever lived with a Dog before?</label><br><br>
+
+		<label for="multiSelect">Please select your preferred breeds:</label>
+		<select id="multiSelect">
+			<option value="Labrador Retriever">Labrador Retriever</option>
+			<option value="German Shepherd">German Shepherd</option>
+			<option value="Golden Retriever">Golden Retriever</option>
+		</select><br><br>
+
+		<button type="submit">Submit</button>
+
+	</form>
+		
+		
+
+
+
+
+
+
+
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
